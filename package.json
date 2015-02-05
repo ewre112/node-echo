@@ -1,0 +1,27 @@
+{
+    "name": "node-echo",
+    "version": "1.0.0",
+    "description": "A proof-of-concept implementation of a node.js echo server and client using child_process",
+    "keywords": [
+        "node.js",
+        "child_process",
+        "echo",
+        "server",
+        "client"
+    ],
+    "author": {
+        "author": "Nicolas Riesco",
+        "email": "enquiries@nicolasriesco.net",
+        "url": "http://www.nicolasriesco.net/"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/n-riesco/node-echo.git"
+    },
+    "private": true,
+    "bin": {
+        "node-echo": "lib/client.js"
+    },
+    "license": "BSD-3-Clause",
+    "dependencies": {}
+}
